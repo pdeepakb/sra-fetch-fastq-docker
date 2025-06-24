@@ -1,0 +1,5 @@
+{
+  "sra_prefetch_workflow.srr_list_file": "test_inputs/srr_list.txt",
+  "sra_prefetch_workflow.ngc_file": "test_inputs/prj_xxxx.ngc",
+  "sra_prefetch_workflow.output_directory": "gs://your-bucket-name/sra/"
+}

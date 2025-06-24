@@ -1,0 +1,8 @@
+version: 1.2
+workflows:
+  - subclass: WDL
+    primaryDescriptorPath: /dockstore.wdl
+    name: sra_prefetch_workflow
+    descriptorType: WDL
+    testParameterFiles:
+      - /test_inputs/test_input.json
