@@ -17,6 +17,7 @@ workflow sra_prefetch_workflow {
   }
 
   output {
-    Array[File] downloaded_files = sra_prefetch_from_list.downloaded_sra_files
+    Array[File] fastq_files = sra_prefetch_from_list.fastq_files
   }
 }
+
